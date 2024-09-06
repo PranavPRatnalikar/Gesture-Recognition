@@ -10,7 +10,7 @@ from mediapipe.tasks.python.core import base_options
 from mediapipe.tasks.python.vision import GestureRecognizer, GestureRecognizerOptions, RunningMode
 
 # Path to your gesture recognition model
-model_path = r'D:/SIH 24/Women Safety/GestureRecognition1/hand_gesture_detection/MediaPipeGesture/gesture_recognizer.task'
+model_path = r'gesture_recognizer.task'
 
 # Function to recognize gesture in image
 def recognize_gesture_in_image(image_file):

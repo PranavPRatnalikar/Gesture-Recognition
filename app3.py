@@ -8,7 +8,7 @@ GestureRecognizerOptions = mp.tasks.vision.GestureRecognizerOptions
 VisionRunningMode = mp.tasks.vision.RunningMode
 
 # Path to your gesture recognition model
-model_path = r'D:/SIH 24/Women Safety/GestureRecognition1/hand_gesture_detection/MediaPipeGesture/gesture_recognizer.task'
+model_path = r'gesture_recognizer.task'
 
 # Setup the Gesture Recognizer with video mode
 options = GestureRecognizerOptions(
@@ -17,7 +17,7 @@ options = GestureRecognizerOptions(
 )
 
 # Open the video file using OpenCV
-video_path = r'D:/SIH 24/Women Safety/GestureRecognition1/hand_gesture_detection/MediaPipeGesture/5211959-uhd_2560_1440_25fps.mp4'
+video_path = r'5211959-uhd_2560_1440_25fps.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Get the frame rate of the video

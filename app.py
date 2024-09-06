@@ -14,11 +14,7 @@ def print_result(result, output_image, timestamp_ms):
     if result.gestures and len(result.gestures) > 0:
         gesture = result.gestures[0][0]  # Get the most confident gesture
         gesture_name = gesture.category_name
-        if(gesture_name=='Closed_Fist'):
-            print(f"Alert :{gesture_name} SOS Detected")
-        # print(f"Recognized Gesture: {gesture_name}")
-        else:
-            print("Unknown Gesture")
+        print(f"Recognized Gesture: {gesture_name}")
     else:
         print("No gesture recognized.")
 

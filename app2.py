@@ -3,8 +3,8 @@ from mediapipe.tasks.python import vision
 from mediapipe.tasks.python.vision import GestureRecognizer, GestureRecognizerOptions, RunningMode
 from mediapipe.tasks.python.core import base_options  
 
-model_path = r'D:/SIH 24/Women Safety/GestureRecognition1/hand_gesture_detection/MediaPipeGesture/gesture_recognizer.task'
-image_path = r'D:/SIH 24/Women Safety/GestureRecognition1/hand_gesture_detection/MediaPipeGesture/hitler.jpeg'
+model_path = r'gesture_recognizer.task'
+image_path = r'hitler.jpeg'
 
 base_options = base_options.BaseOptions(model_asset_path=model_path) 
 
